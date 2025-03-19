@@ -1,3 +1,7 @@
-html {
-	color: #333;
+@import './abstracts/variables.css';
+@import './vendor/normalize.css';
+@import './globals/globals.css';
+
+h1 {
+	color: var(--color-primary);
 }
