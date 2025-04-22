@@ -19,3 +19,13 @@ Ceci est un starter kit pour les exercices du cours d'animation. Il contient de 
 1. Compiler les fichiers pour la production avec `npm run build`
 2. Les fichiers compilés se trouvent dans le dossier `dist/`
 3. Les fichiers dans ce dossier peuvent être copiés sur un hébergement (ou dans un sous dossier)
+
+## Ajouter une page
+
+1. Créer un nouveau fichier HTML à la racine du projet (au même niveau que `index.html`)
+2. Dans le fichier `vite.config.js`, ajouter une entrée correspondant à la nouvelle page HTML, par exemple pour ajouter une page `contact` :
+```javascript
+	input: {
+		index: resolve(__dirname, 'index.html'),
+	},
+```
